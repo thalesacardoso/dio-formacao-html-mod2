@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -24,8 +25,8 @@ body {
 
 .menu {
     width: 15%;
-    background-color: #0e7d5a ;
-    padding: 10px 20px 0px;
+    background-color: #0e7d5a;
+    padding: 20px 10px;
 }
 
 .header {
@@ -42,7 +43,6 @@ body {
 .footer {
     background-color: #408e75 ;
     min-height: 150px;
-    clear: both;
 }
 
 ul {
@@ -56,16 +56,44 @@ ul li a {
     padding: 10px;
     margin-bottom: 2px;
     font-weight: bold;
-    
 }
 
 ul li a:hover {
-    background-color:blue;
+    border-bottom: 2px solid #fff;
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e7d5a;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0e7d5a;
 }
 
 /******************************
         estilo home
 *******************************/
+.header {
+    background-image: url(img/home/topo-home.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2.titulo {
+    margin: 50px auto;
+    text-align: center;
+}
 
 .content .coluna {
     width: 280px;
@@ -96,11 +124,39 @@ ul li a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #fff;
-    background-color: #588c71;
+    background-color: #408e75;
     border: 0;
 }
 
 .content .coluna button:hover {
     background-color: #0e7d5a;
     cursor: pointer;
+}
+
+.logo-menu {
+    width: 100%;
+    height: 110px;
+}
+
+.footer img {
+    float: left;
+    width: 180px;
+    margin: 0 30px;
+}
+
+.footer .menu-rodape ul li {
+    display: inline-block;
+}
+
+.footer div.direitos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #0e7d5a;
+}
+
+.footer div.direitos p {
+    color: #fff;
 }
