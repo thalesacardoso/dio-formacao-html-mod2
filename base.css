@@ -160,3 +160,11 @@ h3 {
 .footer div.direitos p {
     color: #fff;
 }
+
+/******************************
+        ESTILO SOBRE
+*******************************/
+
+.header-sobre {
+    background-color: red;
+}
