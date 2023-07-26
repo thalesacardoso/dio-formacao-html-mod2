@@ -52,7 +52,7 @@ body {
 }
 
 .footer {
-    background-color: #408e75 ;
+    background-color: #408e75;
     width: 100%;
     min-height: 150px;
 }
@@ -237,7 +237,6 @@ h3 {
 *************************************************************/
 
 .sobre-medicos {
-    background-color: blue;
     margin: 30px 35px 0 0;
 }
 
@@ -245,10 +244,6 @@ h3 {
 /************************************************************
         ESTILO PAGINA ATENDIMENTO
 *************************************************************/
-.atendimento {
-    #background-color: red;
-    
-}
 
 .atendimento p {
     display: block;
