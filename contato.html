@@ -34,13 +34,25 @@
             </div><!-- FIM HEADER -->
     
 
-            <div class="content"><!-- INÍCIO CONTENT -->
+            <div class="content contato"><!-- INÍCIO CONTENT -->
                 <h2 class="titulo">
                     FALE CONOSCO
                 </h2>
 
                 <div class="formulario">
-
+                    <form name="formulario" action="#" method="get" name="" target="_blank" autocomplete="off">
+                        <label>Nome *</label> <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        <label>E-mail *</label> <input type="email" name="email" placeholder="email@exemplo.com" required>
+                        <label>Assunto</label> <select name="assunto" >
+                            <option value="selecionar" selected>Selecionar Assunto</option>
+                            <option value="marcar-consultas">Marcar consulta</option>
+                            <option value="marcar-exame">Marcar exame</option>
+                            <option value="pegar-exame">Pegar exame</option>
+                        </select>
+                        <label>Mensagem</label> <textarea name="mensagem" placeholder="Digite aqui a sua mensagem..."></textarea> <br><br>
+                        <button type="reset">LIMPAR</button> 
+                        <button type="submit"> ENVIAR MENSAGEM </button>
+                    </form>
                 </div>
 
                 <div class="endereco">
